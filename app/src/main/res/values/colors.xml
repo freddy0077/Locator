@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFF</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_text">#000000</color>
+    <color name="color_shadow">#C1C1C1</color>
+    <color name="color_black">#000000</color>
+    <color name="color_green_light">#31D167</color>
+    <color name="colorWhite">#FFFFFFFF</color>
+
+    <color name="color_background">#0085F9</color>
+    <color name="blue">#0073F0</color>
+
+    <color name="toolbar_boarder">#e5e6ea</color>
+</resources>
+
+

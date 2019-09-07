@@ -1,0 +1,78 @@
+{
+  "project_info": {
+    "project_number": "225417793914",
+    "firebase_url": "https://products-94398.firebaseio.com",
+    "project_id": "products-94398",
+    "storage_bucket": "products-94398.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225417793914:android:dff0623999a591ad",
+        "android_client_info": {
+          "package_name": "com.evergreen.locator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225417793914-ejhghppf8fn0c4a46c2qd16brffb5nq4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.evergreen.locator",
+            "certificate_hash": "b8df55116b643bb31941f64e7cf42a887b158bc3"
+          }
+        },
+        {
+          "client_id": "225417793914-6v2f0gi60a9ue67qqjmvjbknfv66orbk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.evergreen.locator",
+            "certificate_hash": "6d0212e56ccb596d597623ae42f2a06a4252af2e"
+          }
+        },
+        {
+          "client_id": "225417793914-u7paoe40ltmf2ca96peru9l78vgqp45q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.evergreen.locator",
+            "certificate_hash": "8d5c20925d26a1d257287c62641eb322fda11aee"
+          }
+        },
+        {
+          "client_id": "225417793914-hd01lki0bb3qi7kc5b278h8g7qmigj2k.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "225417793914-hd01lki0bb3qi7kc5b278h8g7qmigj2k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiy5AudzWuniwuDPMQb427G5Nh7mshEvA"
+        },
+        {
+          "current_key": "AIzaSyAsCypErC1bBBmRAdg35s5LzPu8UPrMMso"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "225417793914-hd01lki0bb3qi7kc5b278h8g7qmigj2k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

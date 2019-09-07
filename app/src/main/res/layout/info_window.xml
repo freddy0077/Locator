@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/searchbox_shape"
+    app:cardBackgroundColor="#ffffff"
+    app:cardElevation="@dimen/margin_pad_5dp"
+    app:cardPreventCornerOverlap="false"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_branch_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_pad_5dp"
+            android:text="@string/text_title"
+            android:textColor="@color/color_text"
+            android:textSize="@dimen/textsize_11sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_branch_name"
+            android:layout_marginBottom="@dimen/layout_height_width_2dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <LinearLayout
+                android:layout_width="@dimen/layout_margin_0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/layout_height_weight_5dp"
+                android:layout_weight=".8"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/layout_margin_10dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_marker" />
+
+                    <TextView
+                        android:id="@+id/tv_address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/address"
+                        android:layout_marginLeft="@dimen/layout_height_width_2dp"
+                        android:textSize="@dimen/textsize_8sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/layout_margin_10dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_direction" />
+
+                    <TextView
+                        android:id="@+id/tv_distance"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="2dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/distance"
+                        android:textSize="@dimen/textsize_8sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/layout_margin_0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2"
+                android:padding="@dimen/margin_pad_5dp"
+                android:layout_gravity="bottom">
+
+                <ImageView
+                    android:id="@+id/img_contact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/layout_height_width_40dp"
+                    android:src="@drawable/ic_phone" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

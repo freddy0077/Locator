@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <include
+                android:id="@+id/item_banner"
+                layout="@layout/item_banner" />
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_marginLeft= "@dimen/layout_height_width_15dp"
+                android:layout_marginRight="@dimen/layout_height_width_15dp"
+                android:id="@+id/recycleView_news_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/item_banner"
+                android:clipToPadding="false"
+                android:nestedScrollingEnabled="false"
+                android:overScrollMode="never"
+                />
+        </RelativeLayout>
+        </ScrollView>
+        <include layout="@layout/view_common_loader" />
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.evergreen.locator.activity.SettingActivity">
+
+    <include
+        android:id="@+id/toolbar_main_settings"
+        layout="@layout/toolbar" />
+
+    <TextView
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_main_settings"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/blue"
+        android:textSize="@dimen/textsize_18sp" />
+
+    <LinearLayout
+        android:id="@+id/cover_lyt"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/progress"
+        android:layout_margin="@dimen/layout_margin_10dp"
+        android:background="@drawable/searchbox_shape"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight=".2"
+            android:gravity="center"
+            android:text="@string/cover"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize_18sp"
+            android:textStyle="bold" />
+        <SeekBar
+            android:id="@+id/seek_bar"
+            android:layout_width="@dimen/layout_margin_0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:theme="@style/AppTheme"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/cover_lyt"
+        android:layout_margin="@dimen/layout_margin_10dp"
+        android:background="@drawable/searchbox_shape">
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="@dimen/layout_height_width_120dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="@string/notification"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize_18sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="@dimen/layout_height_width_40dp"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:theme="@style/AppTheme"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>
